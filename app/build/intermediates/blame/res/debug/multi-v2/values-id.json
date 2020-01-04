@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\HomeService\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\18c315f63ad9598191ddcfae5f69e7e9\\jetified-facebook-android-sdk-4.5.0\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "164,289,403,502,569,637,696,767,838,935,1008,1081,1165,1268,1332,1399",
+                        "endColumns": "124,113,98,66,67,58,70,70,96,72,72,83,102,63,66,138",
+                        "endOffsets": "284,398,497,564,632,691,762,833,930,1003,1076,1160,1263,1327,1394,1533"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,180,294,393,460,528,587,658,729,826,899,972,1056,1159,1223,1290",
+                        "endColumns": "124,113,98,66,67,58,70,70,96,72,72,83,102,63,66,138",
+                        "endOffsets": "175,289,388,455,523,582,653,724,821,894,967,1051,1154,1218,1285,1424"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+  <fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="180sp"
+    tools:context=".MapActivity" />
+
+    <homeservice.com.model.FooterBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/cart_payment_proceed"
+        android:layout_gravity="bottom">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/footerbar_product_details"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:textColor="@android:color/holo_red_dark"
+                   android:text="Select Home Services"
+                   android:textStyle="bold"
+                   android:layout_height="wrap_content"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/locations"
+                android:layout_width="match_parent"
+                android:layout_height="43sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:translationZ="2sp"
+                android:layout_marginBottom="10sp"
+                android:hint=" Select Location"
+                android:layout_gravity="center"
+                android:drawablePadding="10sp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/select_button2"
+                android:textColor="#090909"
+                android:textColorHint="#090909"
+                android:backgroundTint="@color/white"
+                android:textSize="16sp"
+                android:paddingLeft="10sp"
+                android:drawableLeft="@drawable/active_dot"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="80sp"
+                    android:background="@drawable/active_dot"
+                    android:layout_gravity="center"
+                    android:layout_height="40sp">
+
+                    <Spinner
+                        android:id="@+id/location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@android:color/transparent"
+                        android:spinnerMode="dropdown" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="16sp"
+                            android:layout_height="16sp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:onClick="showDropDown"
+                            android:src="@drawable/ic_chevron_down_blue" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/types"
+                android:layout_width="match_parent"
+                android:layout_height="43sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:translationZ="2sp"
+                android:layout_marginBottom="10sp"
+                android:hint=" Select Type"
+                android:drawablePadding="10sp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/non_active"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/select_button2"
+                android:textColor="#090909"
+                android:textColorHint="#090909"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="10sp"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username" />
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="80sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/non_active"
+                    android:layout_height="40sp">
+
+                    <Spinner
+                        android:id="@+id/type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@android:color/transparent"
+                        android:spinnerMode="dropdown" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="16sp"
+                            android:layout_height="16sp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:onClick="showDropDown"
+                            android:src="@drawable/ic_chevron_down_blue" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </homeservice.com.model.FooterBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

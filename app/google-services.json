@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825724413316",
+    "firebase_url": "https://homeservice-c6db5.firebaseio.com",
+    "project_id": "homeservice-c6db5",
+    "storage_bucket": "homeservice-c6db5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825724413316:android:fe1c0a3785dc754153e9d1",
+        "android_client_info": {
+          "package_name": "homeservice.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825724413316-7fj090ehagrnojk27kptrekcpk9t25co.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "homeservice.com",
+            "certificate_hash": "e96918edd20ff416b3d31431657272226842de3a"
+          }
+        },
+        {
+          "client_id": "825724413316-vfq62ec35iu1a89tnrlsl92dhjqn7tob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXTZz8e-F_FTb0TgO8PHDCGMin20uiiMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825724413316-vfq62ec35iu1a89tnrlsl92dhjqn7tob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

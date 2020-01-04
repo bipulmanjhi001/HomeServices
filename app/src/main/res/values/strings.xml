@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">HomeService</string>
+    <string name="title_activity_register"></string>
+    <string name="welcomereg">WELCOME YOUR</string>
+    <string name="REGISTERATION">CUSTOMER REGISTRATION</string>
+    <string name="fname">FIRST NAME</string>
+    <string name="lname">LAST NAME</string>
+    <string name="address">ADDRESS</string>
+    <string name="phone">PHONE NO</string>
+    <string name="email">E-MAIL ADDRESS</string>
+    <string name="confirmpass">CONFIRM PASSWORD</string>
+    <string name="agreement">I ACCEPT YOUR TERMS &amp; CONDITIONS</string>
+    <string name="username">USER NAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="rememberme">REMEMBER ME</string>
+    <string name="custreg">CUSTOMER REGISTERATION</string>
+    <string name="forgotpass">FORGOT PASSWORD</string>
+
+    <string name="error_invalid_email">This Phone Number is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="we_sent_you_a_6_digit_code">We sent you a 6-digit code.</string>
+    <string name="_continue">Verify</string>
+
+    <string name="prompt_email">Mobile No.</string>
+    <string name="prompt_password">******</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="new_v">New version available</string>
+    <string name="update_text">Please, "\n"
+        update app to new version
+        to continue reposting.</string>
+    <string name="cancel">NO,THANKS</string>
+    <string name="select_product">Select Product</string>
+    <string name="update">Update</string>
+    <string name="title_activity_map">Map</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+</resources>
