@@ -67,6 +67,11 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     private ArrayList<String> subareaIds=new ArrayList<String>();
     private String area_ids,subarea_ids;
 
+    private Double Latitude = 0.00;
+    private Double Longitude = 0.00;
+    ArrayList<HashMap<String, String>> location = new ArrayList<HashMap<String, String>>();
+    HashMap<String, String> map;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -113,6 +118,30 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
             }
         });
+
+        // Location 1
+        map = new HashMap<String, String>();
+        map.put("LocationID", "1");
+        map.put("Latitude", "23.369970");
+        map.put("Longitude", "85.341263");
+        map.put("LocationName", "Lalpur Ranchi");
+        location.add(map);
+
+       // Location 2
+        map = new HashMap<String, String>();
+        map.put("LocationID", "2");
+        map.put("Latitude", "23.387030");
+        map.put("Longitude", "85.330730");
+        map.put("LocationName", "Morabadi Ranchi");
+        location.add(map);
+
+       // Location 3
+        map = new HashMap<String, String>();
+        map.put("LocationID", "3");
+        map.put("Latitude", "23.400690");
+        map.put("Longitude", "85.295880");
+        map.put("LocationName", "Jail More Ranchi");
+        location.add(map);
     }
 
     private void fetchLocation() {
@@ -132,7 +161,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                     SupportMapFragment supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
                     assert supportMapFragment != null;
                     supportMapFragment.getMapAsync(MapActivity.this);
-                    Location();
                 }
             }
         });
@@ -140,12 +168,31 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        LatLng latLng = new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude());
         String address=getAddress(currentLocation.getLatitude(), currentLocation.getLongitude());
-        MarkerOptions markerOptions = new MarkerOptions().position(latLng).title(address).icon(bitmapDescriptorFromVector(getApplicationContext(), R.drawable.ic_placeholder));
-        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 12));
-        googleMap.addMarker(markerOptions);
-        googleMap.getUiSettings().setZoomControlsEnabled(true);
+        map = new HashMap<String, String>();
+        map.put("LocationID", "4");
+        map.put("Latitude", String.valueOf(currentLocation.getLatitude()));
+        map.put("Longitude", String.valueOf(currentLocation.getLongitude()));
+        map.put("LocationName", address);
+        location.add(map);
+        for (int i = 0; i < location.size(); i++) {
+            Latitude = Double.parseDouble(location.get(i).get("Latitude").toString());
+            Longitude = Double.parseDouble(location.get(i).get("Longitude").toString());
+            String name = location.get(i).get("LocationName").toString();
+            MarkerOptions marker = new MarkerOptions().position(new LatLng(Latitude, Longitude)).title(name);
+            marker.icon(bitmapDescriptorFromVector(getApplicationContext(), R.drawable.ic_placeholder));
+            try {
+                if(location.get(i).get("LocationID").equals("4")){
+                    marker.icon(bitmapDescriptorFromVector(getApplicationContext(), R.drawable.ic_location));
+                }
+            }catch (NullPointerException e){
+                e.printStackTrace();
+            }
+            googleMap.addMarker(marker);
+            googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(Latitude, Longitude), 12));
+            googleMap.getUiSettings().setZoomControlsEnabled(true);
+        }
+        Location();
     }
 
     @Override
@@ -168,6 +215,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 Address address = addresses.get(0);
                 result.append(address.getLocality()).append("\n");
                 result.append(address.getCountryName());
+
             }
         } catch (IOException e) {
             Log.e("tag", e.getMessage());

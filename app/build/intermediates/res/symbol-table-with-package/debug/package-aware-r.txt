@@ -1604,6 +1604,7 @@ drawable ic_chevron_down_blue
 drawable ic_launcher
 drawable ic_launcher_background
 drawable ic_launcher_round
+drawable ic_location
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
@@ -1725,6 +1726,10 @@ id buttonUpdate
 id buttoncancel
 id cancel_action
 id cart_payment_proceed
+id category_pro_id
+id category_pro_image
+id category_pro_name
+id category_pro_url
 id center
 id centerImage
 id center_horizontal
@@ -1785,6 +1790,7 @@ id footerbar_product_details
 id forever
 id ghost_view
 id gone
+id grid_imagelist_pro
 id group_divider
 id groups
 id home
@@ -1871,6 +1877,7 @@ id places_autocomplete_search_input
 id places_autocomplete_separator
 id places_autocomplete_try_again
 id places_autocomplete_try_again_progress
+id progressBar_pro
 id progress_circular
 id progress_horizontal
 id radio
@@ -2042,6 +2049,7 @@ layout activity_dashboard
 layout activity_login
 layout activity_main
 layout activity_map
+layout category_product_list
 layout com_facebook_activity_layout
 layout com_facebook_login_fragment
 layout com_facebook_tooltip_bubble

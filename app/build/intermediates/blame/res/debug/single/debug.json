@@ -8,16 +8,16 @@
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\f5cee04665f635392fbc3a078a89e818\\material-1.0.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_com_facebook_tooltip_black_bottomnub.png.flat",
@@ -864,6 +864,10 @@
         "source": "D:\\HomeService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_chevron_down_blue.png"
     },
     {
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_location.png.flat",
+        "source": "D:\\HomeService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_location.png"
+    },
+    {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_light.xml.flat",
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\color\\switch_thumb_material_light.xml"
     },
@@ -1160,6 +1164,10 @@
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\f5cee04665f635392fbc3a078a89e818\\material-1.0.0\\res\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_location.png.flat",
+        "source": "D:\\HomeService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_location.png"
+    },
+    {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
@@ -1194,6 +1202,10 @@
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_location.xml.flat",
+        "source": "D:\\HomeService\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_location.xml"
     },
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
@@ -1376,6 +1388,10 @@
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\f5cee04665f635392fbc3a078a89e818\\material-1.0.0\\res\\color\\mtrl_btn_stroke_color_selector.xml"
     },
     {
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_location.png.flat",
+        "source": "D:\\HomeService\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_location.png"
+    },
+    {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_checked_box_inner_merged_animation.xml.flat",
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_checked_box_inner_merged_animation.xml"
     },
@@ -1398,6 +1414,10 @@
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_location.png.flat",
+        "source": "D:\\HomeService\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_location.png"
     },
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_colored_material.xml.flat",
@@ -1900,6 +1920,10 @@
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\9ecfd1c299578561786e2653b9206c82\\places-2.1.0\\res\\drawable-xxxhdpi-v4\\places_powered_by_google_dark.png"
     },
     {
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_location.png.flat",
+        "source": "D:\\HomeService\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_location.png"
+    },
+    {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_com_facebook_tooltip_black_bottomnub.png.flat",
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\18c315f63ad9598191ddcfae5f69e7e9\\jetified-facebook-android-sdk-4.5.0\\res\\drawable-mdpi\\com_facebook_tooltip_black_bottomnub.png"
     },
@@ -2022,6 +2046,10 @@
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_com_facebook_tooltip_blue_xout.png.flat",
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\18c315f63ad9598191ddcfae5f69e7e9\\jetified-facebook-android-sdk-4.5.0\\res\\drawable-xhdpi\\com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_location.png.flat",
+        "source": "D:\\HomeService\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_location.png"
     },
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -2402,6 +2430,10 @@
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\layout_category_product_list.xml.flat",
+        "source": "D:\\HomeService\\app\\src\\main\\res\\layout\\category_product_list.xml"
     },
     {
         "merged": "D:\\HomeService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_com_facebook_tooltip_black_background.9.png.flat",

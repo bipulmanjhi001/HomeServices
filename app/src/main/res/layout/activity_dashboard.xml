@@ -6,5 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="left|center_vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <homeservice.com.model.ExpandableHeightGridView
+                        android:id="@+id/grid_imagelist_pro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:horizontalSpacing="10dp"
+                        android:isScrollContainer="false"
+                        android:numColumns="3"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="10dp"/>
+
+                    <ProgressBar
+                        android:visibility="gone"
+                        android:id="@+id/progressBar_pro"
+                        android:layout_width="30dp"
+                        android:translationZ="2dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+
+                </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
